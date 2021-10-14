@@ -46,26 +46,8 @@ public class PA5b {
 		System.out.print("Do you want to compute another average (y/n)? ");
 		response = scnr.next();
 	} while (response.equalsIgnoreCase("y"));
-		
-		
-		
-		
-	}
-	
 
+	}
 }
-/*
- * Enter a stream of non-negative numbers (negative when finished): 1 2 3 -1
-The average is: 2.00
-Do you want to compute another average (y/n)? Y
-Enter a stream of non-negative numbers (negative when finished): 1 2 0 3 -2
-The average is: 1.50
-Do you want to compute another average (y/n)? y
-Enter a stream of non-negative numbers (negative when finished): 0 -1
-The average is: 0.00
-Do you want to compute another average (y/n)? y
-Enter a stream of non-negative numbers (negative when finished): -2
-The average is: 0.00
-Do you want to compute another average (y/n)? N
- */
+
 
